@@ -1,0 +1,29 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | A15      | Clock/Input
+   2   | A14      | Input
+   3   | A13      | Input
+   4   | A12      | Input
+   5   | A11      | Input
+   6   | A10      | Input
+   7   | A9       | Input
+   8   | A8       | Input
+   9   | A7       | Input
+  10   | A6       | Input
+  11   | A5       | Input
+  12   | GND      | GND
+  13   | A4       | Input
+  14   | EA       | Input
+  15   | WR       | NC
+  16   | RD       | Input
+  17   | PSEN     | NC
+  18   | OE       | Output
+  19   | CSEXT    | Output
+  20   | CSRAM    | Output
+  21   | CSPIA    | Output
+  22   | CSSAVE   | Output
+  23   | CSROM    | Output
+  24   | VCC      | VCC
+

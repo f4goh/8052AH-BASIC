@@ -1,0 +1,23 @@
+GAL22V10
+22V10
+
+A15 A14 A13 A12 A11  A10 A9    A8    A7     A6       A5      GND
+A4  EA  WR  RD  PSEN OE  CSEXT CSRAM CSPIA  CSSAVE   CSROM   VCC
+
+
+CSRAM=A15  ;0000 à 7fff 
+
+/CSROM= /A15 * /A14 * A13 * EA + /A15 * /A14 * /EA ;2000 à 3fff ou 0000 à 3fff
+
+/CSSAVE= A15 * /A14 * /A13 ;8000 à 9fff
+
+/CSPIA= A15 * A14 * A13 * /A12 * /A11 * /A10 * /A9 * /A8 * /A7 * /A6 * /A5 * /A4 ;E000 à E00f
+
+/CSEXT= A15 * A14 * A13 * /A12 * /A11 * /A10 * /A9 * /A8 * /A7 * /A6 * /A5 * A4 ;E010 à E01f
+
+OE= RD  ;works
+
+
+DESCRIPTION
+80C32 address decoder
+
