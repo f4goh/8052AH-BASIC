@@ -83,4 +83,11 @@ The card works without eprom and gal just with the ram. to do this, connect two 
 
 ![test_pia](images/test_pia.gif "test_pia")
 
+## Usefull links
+
+- Elektormagazine [Elektormagazine](https://www.elektormagazine.fr/magazine/elektor-200703/10656)
+
+- Dos4ever [dos4ever](https://www.dos4ever.com/8031board/8031board.html)
+
+
 
