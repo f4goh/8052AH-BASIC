@@ -75,11 +75,11 @@ The card works without eprom and gal just with the ram. to do this, connect two 
 
 ![led_on_off](images/led_on_off.gif "led_on_off")
 
-- Blink test
+- Blink test and eeprom programming, run auto after reset
 
 ![led_blink](images/led_blink.gif "led_blink")
 
-- Pia 8255 test
+- Pia 8255 test and copy eeprom program into the ram
 
 ![test_pia](images/test_pia.gif "test_pia")
 
