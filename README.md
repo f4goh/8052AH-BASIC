@@ -29,7 +29,7 @@ READY
 
 ## Peripheral Address :
 
-| Peripheral | Address begin | Address end |
+| Peripheral | start address | end address |
 | ------ | ------ | ------ |
 | RAM | #0000 | #7FFF |
 | EPROM (2764) (/EA=1) | #2000 | #3FFF |
@@ -79,7 +79,7 @@ The card works without eprom and gal just with the ram. to do this, connect two 
 
 ![led_blink](images/led_blink.gif "led_blink")
 
-- Pia 8255 test and copy eeprom program into the ram
+- Pia 8255 : test and copy eeprom program into the ram
 
 ![test_pia](images/test_pia.gif "test_pia")
 
@@ -88,6 +88,12 @@ The card works without eprom and gal just with the ram. to do this, connect two 
 - Elektormagazine [Elektormagazine](https://www.elektormagazine.fr/magazine/elektor-200703/10656)
 
 - Dos4ever [dos4ever](https://www.dos4ever.com/8031board/8031board.html)
+
+- Paulmon2 [Paulmon2](https://www.pjrc.com/tech/8051/paulmon2.html)
+
+- Ide [ide](https://www.pjrc.com/tech/8051/ide/)
+
+- Idescalp [Idescalp](http://vesta.homelinux.free.fr/v/wiki/interface_ide_sur_uc_8051_scalp.html)
 
 
 
