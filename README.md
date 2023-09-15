@@ -31,10 +31,10 @@ READY
 
 | Peripheral | Address begin | Address end |
 | ------ | ------ | ------ |
-| RAM | #0000 | #7fff |
-| EPROM (2764) (/EA=1) | #2000 | #3fff |
-| EPROM (27128) (/EA=0) | #0000 | #3fff |
-| EEPROM (28C64) | #8000 | #9fff |
+| RAM | #0000 | #7FFF |
+| EPROM (2764) (/EA=1) | #2000 | #3FFF |
+| EPROM (27128) (/EA=0) | #0000 | #3FFF |
+| EEPROM (28C64) | #8000 | #9FFF |
 | 8255 | #E000 | #E00F |
 | EXTERNAL | #E010 | #E01F |
 
@@ -57,20 +57,29 @@ The card works without eprom and gal just with the ram. to do this, connect two 
 
 ## Pia led Expander
 
-![board_with_test_pia_low](images/board_with_test_pia_low.png "board_with_test_pia_low")
+![board_with_test_pia_low](images/board_with_test_pia_low.jpg "board_with_test_pia_low")
 
 ![adapt_led](images/adapt_led.png "adapt_led")
 
 ![led](schematics/adapt_led.png "led")
 
 
-## Some sample programmes
+## Some sample programmes (autobaud, but test with 9600 bauds)
+
+- 1st test after reset and space bar to wake-up board
 
 ![hello](images/hello.gif "hello")
 
-![led_blink](images/led_blink.gif "led_blink")
+- LED test (add a cable to connector J1 between terminal 14 and 2)
+- Led must be active in low level on PORT1 !!!
 
 ![led_on_off](images/led_on_off.gif "led_on_off")
+
+- Blink test
+
+![led_blink](images/led_blink.gif "led_blink")
+
+- Pia 8255 test
 
 ![test_pia](images/test_pia.gif "test_pia")
 
