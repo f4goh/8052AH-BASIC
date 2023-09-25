@@ -40,10 +40,10 @@ READY
 
 Two possibilities for this project :
 
-- 80C32 processor and external EPROM 27128 (/EA=0) (not tested)
+- 80C32 processor and external EPROM 27128 (BASIC and I2C functions) (/EA=0) (tested)
 - AT89S52 processor with programmed Basic monitor and external EPROM 2764 (I2C functions) (/EA=1) (tested)
 
-The card works without eprom and gal just with the ram. to do this, connect two wires to the dip 24 connector on gal22v10.
+The card works without eprom and gal just with the ram. to do this, connect two wires to the dip 24 GAL connector. (only with AT89S52) 
 
 - A15 to /CSRAM (1 to 20)
 - /RD to /OE (16 to 18)
